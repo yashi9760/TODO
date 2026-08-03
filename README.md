@@ -1,16 +1,142 @@
-# React + Vite
+# 📝 To-Do List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **To-Do List** application built with **React** and **Vite**. It provides an intuitive interface for adding and viewing daily tasks, helping users stay organized and improve productivity.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ➕ Add new tasks instantly
+- 📋 Display all added tasks
+- ⚡ Fast and responsive user interface
+- 🎨 Clean and modern design
+- 📱 Beginner-friendly React project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📂 Project Structure
+
+```
+todo/
+│── public/
+│── src/
+│   ├── components/
+│   │   ├── TodoInput.jsx
+│   │   └── TodoList.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│── package.json
+│── vite.config.js
+│── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/todo.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd todo
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open the URL displayed in the terminal (usually `http://localhost:5173`).
+
+---
+
+## 📸 Screenshots
+
+
+
+```<img width="954" height="445" alt="TODO" src="https://github.com/user-attachments/assets/ffd1562a-7568-43ee-b617-40697cf5c31c" />
+
+
+
+
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me learn:
+
+- React Components
+- Props
+- State Management using `useState`
+- Event Handling
+- Dynamic Rendering
+- Responsive UI Design
+- Project Structure in React
+
+---
+
+## 🔮 Future Enhancements
+
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 💾 Local Storage support
+- 🔍 Search tasks
+- 🌙 Dark/Light Mode
+- 📅 Due date for tasks
+- ⭐ Task priority
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
+
+---
+
+## 👩‍💻 Author
+
+**Yashi Saxena**
+
+B.Tech Computer Science Engineering
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+⭐ If you like this project, consider giving it a **Star** on GitHub!
